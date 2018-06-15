@@ -64,7 +64,7 @@ var myMap = L.map("map", {
         
           grades = [0,1,2,3,4,5];
           div.innerHTML = '<h3>Earthquake Magnitude</h3>'
-      // Create loop for diff intervals and create label a colored square for each:) 
+      // Create loop for diff categories and create label a colored square for each:) 
       for (var i = 0; i < grades.length; i++) {
         div.innerHTML +=
             '<i class="legend" style="background:' + colors[i] + '; color:' + colors[i] + ';">....</i> ' +
